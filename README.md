@@ -8,7 +8,7 @@ The interesting engineering problem was closing the loop from research to execut
 
 ## Our approach
 
-I owned the code and trade execution. My teammates handled the trading strategy, data analysis, and backtesting.
+I owned the code and trade execution. My teammates handled data analysis, and matteoaurellio-dev developed and backtested the trading strategy. [matteoaurellio-dev on GitHub](https://github.com/matteoaurellio-dev)
 
 We separated trading decisions from the mechanics of running a bot. A strategy receives market snapshots and account state and returns order intents. The shared runner handles market-data updates, fill tracking, risk clipping, order reconciliation, request pacing, and recording.
 
